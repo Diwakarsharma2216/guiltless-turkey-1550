@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Page</title>
+  <style>
+
+
+    .product-container {
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+      margin: 20px;
+    }
+    .product-image {
+      flex: 1;
+      width: 20%;
+      height: auto;
+    }
+    .product-details {
+      flex: 2;
+      text-align: center;
+      padding: 20px;
+    }
+    .product-title{
+      font-size: 20px;
+    }
+    .price{
+      font-size: 18px;
+      color: green;
+    }
+    .rating{
+      color: #ffa502;
+    }
+    .add-to-cart {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .add-to-cart:hover {
+      background-color: #3e8e41;
+    }
+    
+    
+  </style>
+</head>
+<body>
+    <div id=" main_container">
+      
+        
+    </div>
+ 
+  <script>
+  let sortByColour= document.getElementById("sort_Colour")
+  sortByColour.addEventListener("click",()=>{
+    console.log("HI")
+    console.log(sortByColour.value)
+  })
+  </script>
+</body>
+</html>
