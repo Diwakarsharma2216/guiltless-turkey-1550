@@ -32,7 +32,7 @@ const url ="https://63c4d1cdf80fabd877db7506.mockapi.io/newproduct";
 
 let container = document.getElementById("container")
 
-let filter_container = document.getElementById("filter_container")
+let filter_container = document.getElementById("for_lable")
 let sort_container= document.getElementById("sort_Size_Container")
 
 
@@ -206,12 +206,13 @@ function displayfilter(){
   
   filter_giver()
   filter_BY_colour()
+  sortByPrice()
 
 }
 
 function displaySort(){
   sort_container.innerHTML=createSort()
-  sortByPrice()
+ 
 }
 
 
@@ -260,32 +261,38 @@ function createfilter(){
 
   let filterDiv=`
 
-  <div class="filter_Size_Container" id="filter_Size_Container">
-
-  <label for="filter_Size">filter By Size:</label>
-  <select name="for_Sort" id="filter_Size">
-    <option value="">Select</option>
-    <option value="XL">XL</option>
-    <option value="M">Medium</option>
-    <option value="S">Small</option>
-    <option value="L">Larg</option>
-  </select>
-
-</div>
-  
-<div class="filter_Colour_Container" id="filter_Colour_Container">
-   
+  <div class="for_evenly">
+               <label for="filter_Size">filter By Size:</label>
+               <select name="for_Sort" id="filter_Size">
+                 <option value="">Select</option>
+                 <option value="XL">XL</option>
+                 <option value="M">Medium</option>
+                 <option value="S">Small</option>
+                 <option value="L">Larg</option>
+               </select>
+              </div>
+         
+       
+         <div class="for_evenly">
+           <label for="filter_Colour">filter By Colour:</label>
+           <select name="for_Colour" id="filter_Colour">
+             <option value="">Select</option>
+             <option value="Green">Green</option>
+             <option value="White">White</option>
+             <option value="Black">Black</option>
+           </select>
+         </div>
         
-  <label for="filter_Colour">filter By Colour:</label>
-  <select name="for_Colour" id="filter_Colour">
-    <option value="">Select</option>
-    <option value="Green">Green</option>
-    <option value="White">White</option>
-    <option value="Black">Black</option>
-  </select>
-
-
-</div>
+             <div class="for_evenly">
+                    <label for="sort_price">sort By Price:</label>
+                     <select name="for_Sort" id="sort_price">
+                       <option value="">Select</option>
+                        <option value="L_T_H">Price Low To High</option>
+                        <option value="H_T_L">Price High To Low</option>
+            
+                      </select>
+               </div>
+         
   
   `
 
@@ -295,18 +302,18 @@ function createfilter(){
 
 
 
-function createSort(){
+// function createSort(){
 
 
-  let sortDiv=`
-  <label for="sort_price">sort By Price:</label>
-      <select name="for_Sort" id="sort_price">
-        <option value="">Select</option>
-        <option value="L_T_H">Price Low To High</option>
-        <option value="H_T_L">Price High To Low</option>
+//   let sortDiv=`
+//   <label for="sort_price">sort By Price:</label>
+//       <select name="for_Sort" id="sort_price">
+//         <option value="">Select</option>
+//         <option value="L_T_H">Price Low To High</option>
+//         <option value="H_T_L">Price High To Low</option>
        
-      </select>
-  `
+//       </select>
+//   `
 
-  return sortDiv
-}
+//   return sortDiv
+// }

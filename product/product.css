@@ -150,14 +150,15 @@
         } */
         #container{
              
-          width: 70%;
+          width: 90%;
           
           margin: auto;
-          margin-bottom: 500px;
+          /* margin-bottom: 500px; */
             display: grid;
             grid-template-columns: repeat(4,1fr);
             gap: 10px;
             /* border: 4px solid black; */
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
         .product {
           
@@ -166,9 +167,9 @@
             align-items: center;
             width: 100%;
             padding: 10px; */
-            width: 80%;
+            width: 70%;
             margin: auto;
-           
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
         }
         #Add_to_cart{
           background-color:black;
@@ -176,6 +177,7 @@
           height: 50px;
           width: 50px;
         }
+
         #cursor:hover{
           cursor:pointer;
         }
@@ -217,37 +219,124 @@
 
     .sort_Size_Container{
       width: 150px;
-      border: 3px solid red;
+      /* border: 3px solid red; */
       margin-left: 90%;
     }
 
+
+    #for_lable{
+      width: 50%;
+      margin: auto;
+      margin-top: 100px;
+      /* border: 4px solid red; */
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      
+    }
+    #filter_Size:hover{
+      cursor:pointer;
+    }
+    #filter_Colour:hover{
+      cursor: pointer;
+    }
+ 
+    #sort_price:hover{
+      cursor: pointer;
+    }
         /*medium media curis */
+        @media (max-width:768px) {
 
- @media (max-width:768px) {
+          #container{
+        
+        margin-top: 100px;
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          gap: 20px;
+          /* border: 4px solid black; */
+        }
+          
+        
+        #for_lable{
+          width: 50%;
+          margin: auto;
+          margin-top: 100px;
+          /* border: 4px solid red; */
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+        
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          
+        }
+        
+        /* #for_lable .for_evenly{
+          display:flex ;
+          flex-direction: column;  
+          justify-content: space-evenly;
+          gap: 10px;
+        
+        } */
+        
+        #filter_Size:hover{
+          cursor:pointer;
+        }
+        #filter_Colour:hover{
+          cursor: pointer;
+        }
+     
+        #sort_price:hover{
+          cursor: pointer;
+        }
+        
+        
+         }
+           
+         @media (max-width:480px) {
+          #container{
+        
+        margin-top: 100px;
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          gap: 20px;
+          /* border: 4px solid black; */
+        }
+        
+        
+        #for_lable{
+          width: 50%;
+          margin: auto;
+          margin-top: 100px;
+          /* border: 4px solid red; */
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          margin-bottom: 100px;
+        
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          
+        }
+        
+        #for_lable .for_evenly{
+            display:flex ;
+            flex-direction: column;  
+            justify-content: space-evenly;
+            gap: 10px;
+        
+        }
 
-  #container{
-
-margin-top: 100px;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 20px;
-  /* border: 4px solid black; */
-}
-  
- }
-   
- @media (max-width:480px) {
-  #container{
-
-margin-top: 100px;
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  gap: 20px;
-  /* border: 4px solid black; */
-}
-
-
- }
+        #filter_Size:hover{
+          cursor:pointer;
+        }
+        #filter_Colour:hover{
+          cursor: pointer;
+        }
+     
+        #sort_price:hover{
+          cursor: pointer;
+        }
+         
+         }
+        
 
         /*end media cours  */
     
