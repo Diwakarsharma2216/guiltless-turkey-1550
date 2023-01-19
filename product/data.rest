@@ -3,7 +3,7 @@ GET https://63c4d1cdf80fabd877db7506.mockapi.io/newproduct
 GET https://63c4d1cdf80fabd877db7506.mockapi.io/newproduct
 
 ###
-DELETE https://63c4d1cdf80fabd877db7506.mockapi.io/newproduct/103
+DELETE https://63c4d1cdf80fabd877db7506.mockapi.io/newproduct/151
 
 
 ###
@@ -15,19 +15,32 @@ Content-Type: application/json
 
      
   
- 
-
-  "name": "Burnout Wash Boyfriend Tee",
-  "img": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwabfb2239/81433993_649_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
-  "price": 800,
-  "category": "Women",
-  "colour": "Pink",
-  "type": "Dresses",
-  "Size": "L"
+  "name": "Heritage Logo Tape Jogger Sweatpants",
+    "img": "https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwe263c5f3/69611283_047_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+    "price": 900,
+    "category": "Mean",
+    "colour": "Cream",
+    "colour_for_sorting": "Black",
+    "type": "Pants",
+    "Size": "S"
   }
 
 
+###
+POST https://63c4d1cdf80fabd877db7506.mockapi.io/newproduct
+Content-Type: application/json
 
+{
+
+     "name":"Long Sleeve Colorblocked Rugby Shirt",
+    "img":"https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwf19be325/60721294_007_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg",
+    "price": 1000,
+    "category": "Men",
+    "colour": "Black",
+    "colour_for_sorting": "Black",
+    "type": "Dress",
+    "Size": "L"
+}
 
   
     

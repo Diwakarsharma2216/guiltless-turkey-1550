@@ -1,3 +1,8 @@
+// let BaseUrl = "https://images.bewakoof.com/t640/"
+
+
+
+/*      slider js start here    */
 
 
 var slideIndex = 0;
@@ -17,7 +22,7 @@ function showSlides() {
 
 
 
-// let BaseUrl = "https://images.bewakoof.com/t640/"
+/*  slider js end here */
 
 
 const url ="https://63c4d1cdf80fabd877db7506.mockapi.io/newproduct";
@@ -59,12 +64,8 @@ fetch(url)
     console.log(data)
     let needyData = data.filter((el)=>{
         // console.log(+el.id>=61)
-        console.log(el.category=="Women")
-        // if(+el.id>=71 && +el.id!=92){
-        //     return el
-        // }
-        if(el.category == "Women" && +el.id!=92){
-          return el
+        if(+el.id>=123 && +el.id!=92){
+            return el
         }
     })
     // console.log(needyData)
@@ -84,14 +85,14 @@ function cart(){
   let dataId=el.dataset.id;
   for(let key of data_For_Other_application ){
     if(dataId===key.id){
-      // console.log(key)
+      console.log(key)
     }
   }
-    // console.log("HI",el.dataset.id)
+    console.log("HI",el.dataset.id)
   })
   }
   
-  // console.log(bag)
+  console.log(bag)
 }
 
 

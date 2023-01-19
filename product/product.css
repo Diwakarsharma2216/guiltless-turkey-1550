@@ -1,4 +1,145 @@
 
+
+  #slider h3{
+    display: block;
+      text-align: center;
+  }
+  #slider{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    height:50px;
+    background-color:#063970;
+    color: rgb(255, 255, 255); font-family: "Visuelt Pro"; font-weight: 100; 
+  }
+   #slider a{
+   
+    color:rgb(248, 5, 5);
+   }
+
+
+
+   nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+  }
+  #nav-1{
+    /* border:2px solid red; */
+    width:400px;
+    margin-left: -40px;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  nav img{
+    height:30px;
+    border: 3px solid red;
+  }
+  nav h1{
+    font-size: 30px;
+  }
+  #nav-2{
+    /* border:2px  solid red; */
+    width:400px;
+ 
+   /* display: flex; */
+   /* justify-content: space-around; */
+  }
+  #nav-2 img{
+  margin-right: 18px;
+  border: 3px solid green;
+  width: 20px;
+  }
+  #nav-2 input{
+    margin-bottom: 20px;
+    margin-right: 10px;
+  height:30px;
+  width:200px;
+  border-radius: 50px;
+  border: 3px solid red;
+  }
+
+
+ /* footer part start here  */
+  #footer-1{
+    text-align: center;
+  }
+  #footer-1 a{
+  text-decoration: none;
+  margin-left: 0px;
+  color:#82758a
+  /* margin-bottom: 140px; */
+  }
+  #footer-1 img{
+    height:23px;
+    /* margin-bottom: 20px; */
+    border: 3px solid red;
+    width: 50px;
+  }
+
+  #footer-2 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-3 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-4 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-5 img{
+    height:25px;
+    margin-left: 10px;
+    border: 3px solid red;
+    width: 20px;
+  }
+  #footer-5 input{
+    width:220px;
+    height:40px;
+    border-radius: 20px;
+  }
+  #footer-5 button{
+    width:100px;
+    height:30px;
+    border-radius: 20px;
+    background-color: #fac2e5;
+    
+  
+  }
+  #footer-5 button:hover{
+    background-color: #b8c8ff;
+  }
+  footer{
+    display: flex;
+     justify-content: space-evenly;
+    background-color:#f2e4ff;color:#413c45;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         /* CSS for responsive design */
 
         /* .bigges_container{
