@@ -1,0 +1,331 @@
+
+        /* CSS for responsive design */
+
+        /* .bigges_container{
+          display: grid;
+       grid-template-rows: repeat(1,1fr);
+
+          border: 4px solid green;
+        } */
+        
+  /*   slider 1 start here  */
+
+  #slider h3{
+    display: block;
+      text-align: center;
+  }
+  #slider{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    height:50px;
+    background-color:#063970;
+    color: rgb(255, 255, 255); font-family: "Visuelt Pro"; font-weight: 100; 
+  }
+   #slider a{
+   
+    color:rgb(248, 5, 5);
+   }
+
+      /*     slider 1 end here       */
+
+      nav{
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: aliceblue;
+      }
+      #nav-1{
+        /* border:2px solid red; */
+        width:400px;
+        margin-left: -40px;
+        display:flex;
+        justify-content:space-evenly;
+      }
+      nav img{
+        height:30px;
+        border: 3px solid red;
+      }
+      nav h1{
+        font-size: 30px;
+      }
+      #nav-2{
+        /* border:2px  solid red; */
+        width:400px;
+     
+       /* display: flex; */
+       /* justify-content: space-around; */
+      }
+      #nav-2 img{
+      margin-right: 18px;
+      border: 3px solid green;
+      width: 20px;
+      }
+      #nav-2 input{
+        margin-bottom: 20px;
+        margin-right: 10px;
+      height:30px;
+      width:200px;
+      border-radius: 50px;
+      border: 3px solid red;
+      }
+    
+    
+      #footer-1{
+        text-align: center;
+      }
+      #footer-1 a{
+      text-decoration: none;
+      margin-left: 0px;
+      color:#82758a
+      /* margin-bottom: 140px; */
+      }
+      #footer-1 img{
+        height:23px;
+        /* margin-bottom: 20px; */
+        border: 3px solid red;
+        width: 50px;
+      }
+    
+      #footer-2 a{
+        text-decoration: none;
+        color:#82758a
+      }
+      #footer-3 a{
+        text-decoration: none;
+        color:#82758a
+      }
+      #footer-4 a{
+        text-decoration: none;
+        color:#82758a
+      }
+      #footer-5 img{
+        height:25px;
+        margin-left: 10px;
+        border: 3px solid red;
+        width: 20px;
+      }
+      #footer-5 input{
+        width:220px;
+        height:40px;
+        border-radius: 20px;
+      }
+      #footer-5 button{
+        width:100px;
+        height:30px;
+        border-radius: 20px;
+        background-color: #fac2e5;
+        
+      
+      }
+      #footer-5 button:hover{
+        background-color: #b8c8ff;
+      }
+      footer{
+        display: flex;
+         justify-content: space-evenly;
+        background-color:#f2e4ff;color:#413c45;
+       
+      }
+    
+    
+    
+    
+
+
+
+
+
+      /*             */
+      #container{
+             
+        width: 90%;
+        
+        margin: auto;
+        /* margin-bottom: 500px; */
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          gap: 10px;
+          /* border: 4px solid black; */
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      .product {
+        
+          /* display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          padding: 10px; */
+          width: 70%;
+          height: auto;
+          margin: auto;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+          #Add_to_cart{
+            background-color:black;
+          
+            height: 50px;
+            width: 50px;
+          }
+          #cursor:hover{
+            cursor:pointer;
+          }
+          #product_info{
+            display: flex;
+            justify-content: space-between;
+            /* border: 3px solid red; */
+          }
+          img {
+            /* border: 4px solid gold; */
+              width: 100%;
+              height: 250px;
+  
+          }
+          img:hover{
+            cursor: pointer;
+          }
+  
+          /* #filter_and_sort_container{
+  
+              height: 20px ;
+              width: 100%;
+              border: 4px solid red;
+              display: flex;
+          } */
+          .filter_container{
+        /* height: 200px; */
+        display: flex;
+        width: 100px;
+        border: 2px solid red;
+          margin-left: 10px;
+        margin-top: 300px;
+        background-color: yellow;
+      }
+  
+      #filter_Colour_Container{
+        margin-top: 70px;
+      }
+  
+      .sort_Size_Container{
+        width: 150px;
+        border: 3px solid red;
+        margin-left: 90%;
+      }
+
+
+      #for_lable{
+        width: 50%;
+        margin: auto;
+        margin-top: 100px;
+        /* border: 4px solid red; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+  
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+      }
+      #filter_Size:hover{
+        cursor:pointer;
+      }
+      #filter_Colour:hover{
+        cursor: pointer;
+      }
+   
+      #sort_price:hover{
+        cursor: pointer;
+      }
+  
+          /*medium media curis */
+  
+          @media (max-width:768px) {
+
+            #container{
+          
+          margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+            /* border: 4px solid black; */
+          }
+            
+          
+          #for_lable{
+            width: 50%;
+            margin: auto;
+            margin-top: 100px;
+            /* border: 4px solid red; */
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+          
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            
+          }
+          
+          /* #for_lable .for_evenly{
+            display:flex ;
+            flex-direction: column;  
+            justify-content: space-evenly;
+            gap: 10px;
+          
+          } */
+          
+          #filter_Size:hover{
+            cursor:pointer;
+          }
+          #filter_Colour:hover{
+            cursor: pointer;
+          }
+       
+          #sort_price:hover{
+            cursor: pointer;
+          }
+          
+          
+           }
+             
+           @media (max-width:480px) {
+            #container{
+          
+          margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 20px;
+            /* border: 4px solid black; */
+          }
+          
+          
+          #for_lable{
+            width: 50%;
+            margin: auto;
+            margin-top: 100px;
+            /* border: 4px solid red; */
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-bottom: 100px;
+          
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            
+          }
+          
+          #for_lable .for_evenly{
+              display:flex ;
+              flex-direction: column;  
+              justify-content: space-evenly;
+              gap: 10px;
+          
+          }
+  
+          #filter_Size:hover{
+            cursor:pointer;
+          }
+          #filter_Colour:hover{
+            cursor: pointer;
+          }
+       
+          #sort_price:hover{
+            cursor: pointer;
+          }
+           
+           }
