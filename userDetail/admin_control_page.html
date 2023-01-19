@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- admin name shows -->
+    <div id="admin_name"></div>
+
+    <div>
+        <div>
+            <!-- get id -->
+            <div>
+                <h2>GET the item ID</h2>
+                <form action="" id="get_id" class="form">
+                    <p>Name:-</p>
+                    <input type="text" id="name" required>
+                    <br>
+                    <input type="submit" >
+                </form>
+            </div>
+            <!-- update price -->
+            <div>
+                <h2>Update the Price</h2>
+                <form action="" id="update_price" class="form">
+                    <p>New Price-</p>
+                    <input type="number" id="price">
+                    <br>
+                    <p>Enter Id</p>
+                    <input type="number" id="id_number"><br>
+                    <input type="submit" >
+                </form>
+            </div>
+            <!-- delete item  -->
+            <div>
+                <h2>Delete the Item</h2>
+                <div>
+                    <form action="" id="delete" class="form">
+                        <p>Enter your id</p>
+                        <input type="number" id="_id">
+                        <br>
+                        <input type="submit" >
+                    </form>
+                </div>
+            </div>
+            <!-- POST the item  -->
+            <div>
+                <h2>create the new item</h2>
+                <form action="" id="post_item" class="form">
+                    <p>Name:- </p>
+                    <input type="text" id="name"><br>
+                    <p>Image:- </p>
+                    <input type="text" id="image"><br>
+                    <p>Price:-</p>
+                    <input type="number" id="price"><br>
+                    <p>Category:-</p>
+                    <input type="text" id="Category"><br>
+                    <p>colour:-</p>
+                    <input type="text" id="colour"><br>
+                    <p>colour_for_sorting:-</p>
+                    <input type="text" id="colour_for_sorting"><br>
+                    <p>Type:-</p>
+                    <input type="text" id="type"><br>
+                    <p>Size:-</p>
+                    <input type="text" id="size"><br>
+                    <input type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+        <!-- display item with id -->
+        <div id="append_item">
+         <h1>you can see your item here</h1>
+        </div>
+    </div>
+</body>
+<script src="./admin_control_page.js"></script>
+</html>
