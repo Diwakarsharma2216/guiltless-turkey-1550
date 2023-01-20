@@ -179,6 +179,7 @@
           }
           img {
             /* border: 4px solid gold; */
+            border: 1px solid blueviolet;
               width: 100%;
               height: 250px;
   

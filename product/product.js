@@ -45,7 +45,7 @@ function showdata(){
     // console.log("Hi")
     fetchValut()
     displayfilter()
-    displaySort()
+    // displaySort()
   
 
    
@@ -209,10 +209,10 @@ function displayfilter(){
 
 }
 
-function displaySort(){
-  sort_container.innerHTML=createSort()
+// function displaySort(){
+//   sort_container.innerHTML=createSort()
   
-}
+// }
 
 
 
