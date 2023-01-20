@@ -1,38 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Admin/page</title>
 </head>
+<link rel="stylesheet" href="./admin_control_page.css">
+
 <body>
+    <div id="userAdmin">
+        <div><a href="./admin.html">ADMIN</a></div>
+        <div><a href="./user.html">USER</a></div>
+    </div>
     <!-- admin name shows -->
     <div id="admin_name"></div>
 
-    <div>
+    <div id="container_box">
         <div>
             <!-- get id -->
             <div>
                 <h2>GET the item ID</h2>
-                <form action="" id="get_id" class="form">
-                    <p>Name:-</p>
-                    <input type="text" id="name" required>
-                    <br>
-                    <input type="submit" >
-                </form>
+                <div>
+                    <form action="" id="get_id" class="form">
+                        <p>Name:-</p>
+                        <input type="text" id="name" required>
+                        <br>
+                        <input type="submit" id="sub">
+                    </form>
+                </div>
             </div>
             <!-- update price -->
             <div>
                 <h2>Update the Price</h2>
-                <form action="" id="update_price" class="form">
-                    <p>New Price-</p>
-                    <input type="number" id="price">
-                    <br>
-                    <p>Enter Id</p>
-                    <input type="number" id="id_number"><br>
-                    <input type="submit" >
-                </form>
+                <div>
+                    <form action="" id="update_price" class="form">
+                        <p>New Price-</p>
+                        <input type="number" id="price">
+                        <br>
+                        <p>Enter Id</p>
+                        <input type="number" id="id_number"><br>
+                        <input type="submit" id="sub">
+                    </form>
+                </div>
             </div>
             <!-- delete item  -->
             <div>
@@ -42,40 +53,118 @@
                         <p>Enter your id</p>
                         <input type="number" id="_id">
                         <br>
-                        <input type="submit" >
+                        <input type="submit" id="sub">
                     </form>
                 </div>
             </div>
             <!-- POST the item  -->
             <div>
                 <h2>create the new item</h2>
-                <form action="" id="post_item" class="form">
-                    <p>Name:- </p>
-                    <input type="text" id="name"><br>
-                    <p>Image:- </p>
-                    <input type="text" id="image"><br>
-                    <p>Price:-</p>
-                    <input type="number" id="price"><br>
-                    <p>Category:-</p>
-                    <input type="text" id="Category"><br>
-                    <p>colour:-</p>
-                    <input type="text" id="colour"><br>
-                    <p>colour_for_sorting:-</p>
-                    <input type="text" id="colour_for_sorting"><br>
-                    <p>Type:-</p>
-                    <input type="text" id="type"><br>
-                    <p>Size:-</p>
-                    <input type="text" id="size"><br>
-                    <input type="submit" value="Submit">
-
-                </form>
+                <div>
+                    <form action="" id="post_item" class="form">
+                        <p>Name:- </p>
+                        <input type="text" id="name"><br>
+                        <p>Image:- </p>
+                        <input type="text" id="image"><br>
+                        <p>Price:-</p>
+                        <input type="number" id="price"><br>
+                        <p>Category:-</p>
+                        <input type="text" id="Category"><br>
+                        <p>colour:-</p>
+                        <input type="text" id="colour"><br>
+                        <p>colour_for_sorting:-</p>
+                        <input type="text" id="colour_for_sorting"><br>
+                        <p>Type:-</p>
+                        <input type="text" id="type"><br>
+                        <p>Size:-</p>
+                        <input type="text" id="size"><br>
+                        <input type="submit" value="Submit" id="sub">
+                    </form>
+                </div>
             </div>
         </div>
         <!-- display item with id -->
         <div id="append_item">
-         <h1>you can see your item here</h1>
+            <h1>you can see your item here</h1>
         </div>
+    </div>
+
+    <!-- footer section  -->
+    <footer>
+        <div id="footer-1">
+            <img src="https://png.pngtree.com/png-vector/20190215/ourmid/pngtree-vector-location-icon-png-image_515424.jpg"
+                alt="">
+            <p><a href="#">Store Locator</a> </p><br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2cNHy-S9tsByz3m4YC7RO10y1lmpxVx_rHCdnCSLx&s"
+                alt="">
+            <p><a href="#">Order Status</a> <br></p>
+            <img src="https://e7.pngegg.com/pngimages/926/340/png-clipart-gift-card-credit-card-wild-cards-computer-icons-gift-miscellaneous-white-thumbnail.png"
+                alt="">
+            <p><a href="#">Gift Card/Balance</a><br></p>
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/feedback-icon.png"
+                alt="">
+            <p> <a href="#">Feedback</a><br></p>
+            <img src="https://png.pngtree.com/png-clipart/20200310/ourmid/pngtree-india-flag-transparent-watercolor-painted-brush-png-image_2156715.jpg"
+                alt="">
+            <p> <a href="#">Īndia|USD</a><br></p>
+        </div>
+        <div id="footer-2">
+            <h3>Shopping Help</h3>
+            <h4><a href="#">Help Desk</a></h4>
+            <h4><a href="#">Return $ Exchanges</a></h4>
+            <h4><a href="#">Prices & Price Match Policy</a></h4>
+            <h4><a href="#">Shipping & Handing</a></h4>
+            <h4><a href="#">Size Charts</a></h4>
+            <h4><a href="#">BUy Online,Pick Up In Store</a></h4>
+            <h4><a href="#">student Discount</a></h4>
+        </div>
+        <div id="footer-3">
+            <h4>Questions?</h4>
+            <h4><a href="#">Chat With Us</a></h4>
+            <p>Available 9AM - 12AM EST</p>
+            <h4><a href="#">Call Us</a></h4>
+            <p>1.877.289.2376</p>
+            <h4><a href="#">Contact Us</a></h4>
+
+        </div>
+        <div id="footer-4">
+            <h3>About Us</h3>
+            <h4><a href="#">About aeropostale</a></h4>
+            <h4><a href="#">careers</a></h4>
+            <h4><a href="#">Supply Chain</a></h4>
+            <h4><a href="#">Aero Impact</a></h4>
+        </div>
+        <div id="footer-5">
+            <h3>Get The Latest Styles & Offers:</h3>
+            <input type="text" placeholder="Enter Email">
+            <Button>Subscribe</Button> <br>
+            <p>For more information, please see our <a href="">Privacy Policy. <br></a> California residents, see our <a
+                    href="">
+                    California Privacy Notice <br></a> and <a href="">Do Not Sell My Personal Information page.</a> </p>
+            <h3>Follow Us</h3>
+            <a href=""><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_ggZVqoOYYergW_XTtvbTZQMOC2jseImUeufxVjvug&s"
+                    alt=""></a>
+            <a href=""><img src="https://e7.pngegg.com/pngimages/708/311/png-clipart-twitter-twitter-thumbnail.png"
+                    alt=""></a>
+            <a href=""><img
+                    src="https://e7.pngegg.com/pngimages/670/159/png-clipart-facebook-logo-social-media-facebook-computer-icons-linkedin-logo-facebook-icon-media-internet.png"
+                    alt=""></a>
+            <a href=""><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHyfE-7KKGcU77j-ouZ6PFQlSjNk5FgZncjoMoQhE&s"
+                    alt=""></a>
+            <a href=""><img
+                    src="https://w7.pngwing.com/pngs/170/404/png-transparent-tiktok-tiktok-logo-tiktok-icon-logo-application-icon-technology-communication-internet-social-media-thumbnail.png"
+                    alt=""></a>
+        </div>
+    </footer>
+    <div id="slider-3">
+        <h3><strong> AERO X Klarna</strong> Buy Now, Pay Later with</h3>
+        <h3>All Jeans: NOW 50% OFF! Online Only. Limited Time.</h3>
+        <h3>Graphic Tees: Buy 1, Get 2 Free! <a href="#">men</a> <a href="#">women</a></h3>
     </div>
 </body>
 <script src="./admin_control_page.js"></script>
+
 </html>
+

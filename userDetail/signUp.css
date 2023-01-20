@@ -34,7 +34,6 @@ body{
     width:400px;
     margin-left: -40px;
     display:flex;
-    /* flex-wrap: wrap; */
     justify-content:space-evenly;
   }
   nav img{
@@ -59,26 +58,11 @@ body{
   height:30px;
   width:200px;
   border-radius: 50px;
+  border: none;
   }
+/* middle section css */
 
-/* middle section  */
-#userAdmin{
-  display: flex;
-  justify-content: space-evenly;
-  width: 80%;
-  margin: auto;
-  color: #46067a;
-  font-size: 40px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: bold;
-  margin-top: 30px;
-}
-#userAdmin a{
-  text-decoration: none;
-}
-
-/* login/signup */
-#loginsignin{
+#cont{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   border: 2px solid red;
@@ -89,41 +73,64 @@ body{
   margin: auto;
   background-color: #82758a;
 }
-#loginsignin h2{
+#titalname{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 35px;
+  color: saddlebrown;
+}
+#cont h3{
+  font-size: 23px;
+  margin-bottom: 0px;
   color: #063970;
 }
-#loginsignin p{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+#cont h2{
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: rgb(1, 81, 54);
 }
-#loginsignin a{
-  text-decoration: none;
-  color:rgb(25, 25, 221);
+#cont input{
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 6px 13px;
+  border-radius: 5px;
+}
+#cont input:hover{
+  padding: 7px 14px;
+}
+
+#cont p{
   font-size: 20px;
+  color: rgb(29, 36, 33);
 }
-#loginsignin a:hover{
-  color: aqua;
-  font-size: 25px;
+#cont a{
+ text-decoration: none;
+ font-size: 25px;
 }
-form input{
-         border-radius: 7px;
-         padding: 5px 10px;
-         border: none;
-         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
+#cont a:hover{
+  color: darkblue;
+  font-size: 28px;
+ }
+ #cont img{
+  width: 80%;
+  border-radius: 10% 40%;
+  margin-top: 30px;
+ }
 #sub{
-  background-color: #601b99;
+  margin-top: 10px;
+  background-color: #063970;
+  font-size: 20px;
   color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #sub:hover{
+  color: #063970;
   background-color: white;
-  color: #601b99;
   font-weight: bold;
-  font-size: 17px;
 }
+
+
   /* footer part  */
    /* footer part start here  */
    #footer-1{

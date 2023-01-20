@@ -14,7 +14,7 @@ Fetch('https://63c4d1cdf80fabd877db7506.mockapi.io/newproduct');
 
 window.addEventListener('load', (e) => {
     e.preventDefault();
-    admin_name_cart.innerHTML = `<h1>Your  Welcome ${admin_name[0].name}</h1>`
+    admin_name_cart.innerHTML = `<h1>Your  Welcome:-<span> ${admin_name[0].name}</span></h1>`
 });
 
 form_post_item.addEventListener('submit',(e)=>{
@@ -79,7 +79,8 @@ function post_item(obj){
         return res.json();
     })
     .then((data)=>{
-        console.log(data);
+        alert("Item Posted")
+        append_item(data);
     })
     .catch((error)=>{
         console.log(error);
@@ -97,7 +98,8 @@ function delete_item(id){
         return res.json();
     })
     .then((data)=>{
-        console.log(data);
+        alert("Item Deleted")
+        append_item(data);
     })
     .catch((error)=>{
         console.log(error);
@@ -119,7 +121,8 @@ function update_price(id,newprice){
         return res.json();
     })
     .then((data)=>{
-        console.log(data);
+        alert("Price Updated")
+        append_item(data)
     })
     .catch((error)=>{
         console.log(error);
@@ -129,10 +132,15 @@ function update_price(id,newprice){
 
 function append_item(data) {
     let templete_string_data = `<div>
-                               <h1>you item is</h1>
+                               <h1>your item is:-</h1>
+                                    <h2>Name:- ${data.name}</h2>
                                     <img src="${data.img}" alt="image">
                                     <p>price:- ${data.price}</p>
                                     <h2>ID:- ${data.id}</h2>
+                                    <p>Size:- ${data.Size}</p>
+                                    <p>Category:- ${data.category}</p>
+                                    <p>Colour:- ${data.colour}</p>
+                                    <p>Types:- ${data.type}</p>
                                 </div>`
                                 append_div.innerHTML=templete_string_data;                      
 }
@@ -152,3 +160,19 @@ function Fetch(url) {
         });
 }
 
+
+//slider three part here 
+let slideIndex3 = 0;
+showSlides3();
+
+function showSlides3() {
+  let i;
+  let slides = document.querySelectorAll("#slider-3 h3");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex3++;
+  if (slideIndex3 > slides.length) {slideIndex3 = 1} 
+  slides[slideIndex3-1].style.display = "block"; 
+  setTimeout(showSlides3, 1000); // Change image every 2 seconds
+  }
