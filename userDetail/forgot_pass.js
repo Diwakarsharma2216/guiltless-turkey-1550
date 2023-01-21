@@ -13,37 +13,35 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block"; 
   setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
-  //user code
+
+
+  //body
 
 let userdata=JSON.parse(localStorage.getItem('userdata'))||[];
 
-let form=document.querySelector('form');
-let loginstatus=document.getElementById('loginstatus');
 
+let form=document.querySelector('form');
+let display_pass=document.getElementById('passdisplay');
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
     let flag=false;
-    for(let key of userdata){
-        if(key.email==form.email.value){
-            // console.log(key.password,form.password)
-            if(key.password==form.password.value){
-                flag=true;
-                break;
-            }
-            // else{
-            //     loginstatus.innerText='Password Wrong';
-            // }
+for(let key of userdata){
+    if(key.email==form.email.value){
+        if(key.phone==form.number.value){
+            display_pass.innerText="Your password is:-"+key.password;
+            alert("Your password is:-"+key.password);
+            flag=true;
+            break;
+        }
+        else{
+          display_pass.innerText='Please fill correct information'
         }
     }
-    if(flag){
-       alert('Login Successfully');
-        window.location.href='index.html';
-    }
-    else{
-      loginstatus.innerText='Wrong Detail';
-    }
+}
+if(!flag){
+  alert('wrong detail');
+}
 });
-
 
  //slider three part here 
  let slideIndex3 = 0;

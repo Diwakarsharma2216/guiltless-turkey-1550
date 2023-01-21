@@ -34,7 +34,6 @@ body{
     width:400px;
     margin-left: -40px;
     display:flex;
-    /* flex-wrap: wrap; */
     justify-content:space-evenly;
   }
   nav img{
@@ -76,54 +75,46 @@ body{
 #userAdmin a{
   text-decoration: none;
 }
-
-/* login/signup */
-#loginsignin{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  border: 2px solid red;
-  width: 90%;
-  padding: 20px 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin: auto;
-  background-color: #82758a;
+#userAdmin:hover{
+  color: red
 }
-#loginsignin h2{
-  font-size: 35px;
-  color: #063970;
+#admin{
+  background-color: rgb(252, 245, 246);
+  padding: 30px 20px;
 }
-#loginsignin p{
+#admin h1{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #db840b;
+}
 
+#admin p{
+     font-size: 20px;
+     color: #2e193f;
 }
-#loginsignin a{
-  text-decoration: none;
-  color:rgb(25, 25, 221);
-  font-size: 20px;
-}
-#loginsignin a:hover{
-  color: aqua;
+#admin h3{
   font-size: 25px;
+  color: #2a3b71;
 }
-form input{
-         border-radius: 7px;
-         padding: 5px 10px;
-         border: none;
-         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+#admin h2{
+  margin-bottom: 2px;
+}
+#admin input{
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 #sub{
-  background-color: #601b99;
+  margin-top: 10px;
+  background-color: #063970;
+  font-size: 20px;
   color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #sub:hover{
+  color: #063970;
   background-color: white;
-  color: #601b99;
   font-weight: bold;
-  font-size: 17px;
 }
+
   /* footer part  */
    /* footer part start here  */
    #footer-1{

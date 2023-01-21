@@ -1,5 +1,5 @@
 body{
-   
+   background-color: #f2e4ff;
 }
 
 #slider h3{
@@ -34,7 +34,6 @@ body{
     width:400px;
     margin-left: -40px;
     display:flex;
-    /* flex-wrap: wrap; */
     justify-content:space-evenly;
   }
   nav img{
@@ -77,53 +76,44 @@ body{
   text-decoration: none;
 }
 
-/* login/signup */
-#loginsignin{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  border: 2px solid red;
-  width: 90%;
-  padding: 20px 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+#forgotform{
+  width: 80%;
   margin: auto;
-  background-color: #82758a;
+  margin-bottom: 30px;
 }
-#loginsignin h2{
-  font-size: 35px;
-  color: #063970;
+#forgotform h3{
+  margin-bottom: 2px;
+  font-size: 23px;
 }
-#loginsignin p{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+#forgotform input{
+  border-radius: 5px;
+  padding: 5px 10px;
 }
-#loginsignin a{
-  text-decoration: none;
-  color:rgb(25, 25, 221);
-  font-size: 20px;
-}
-#loginsignin a:hover{
-  color: aqua;
-  font-size: 25px;
-}
-form input{
-         border-radius: 7px;
-         padding: 5px 10px;
-         border: none;
-         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-
 #sub{
-  background-color: #601b99;
+  margin-top: 10px;
+  background-color: #063970;
+  font-size: 20px;
   color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #sub:hover{
+  color: #063970;
   background-color: white;
-  color: #601b99;
   font-weight: bold;
-  font-size: 17px;
 }
+form{
+  /* background-color: #413c45; */
+  width: 50%;
+
+
+}
+
+#passdisplay{
+  font-size: 30px;
+  color: #413c45;
+}
+
+
+
   /* footer part  */
    /* footer part start here  */
    #footer-1{
