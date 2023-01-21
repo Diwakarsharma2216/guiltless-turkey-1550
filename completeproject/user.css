@@ -1,0 +1,200 @@
+body{
+   
+}
+
+#slider h3{
+    display: block;
+      text-align: center;
+  }
+  #slider{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    height:50px;
+    background-color:#063970;
+    color: rgb(255, 255, 255); font-family: "Visuelt Pro"; font-weight: 100; 
+  }
+  #slider a{
+   
+    color:rgb(248, 5, 5);
+  }
+
+  /* nav part start here  */
+
+  nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+  }
+  #nav-1{
+    /* border:2px solid red; */
+    width:400px;
+    margin-left: -40px;
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content:space-evenly;
+  }
+  nav img{
+    height:30px;
+  }
+  nav h1{
+    font-size: 30px;
+  }
+  #nav-2{
+    /* border:2px  solid red; */
+    width:400px;
+ 
+   /* display: flex; */
+   /* justify-content: space-around; */
+  }
+  #nav-2 img{
+  margin-right: 18px;
+  }
+  #nav-2 input{
+    margin-bottom: 20px;
+    margin-right: 10px;
+  height:30px;
+  width:200px;
+  border-radius: 50px;
+  }
+
+/* middle section  */
+#userAdmin{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  color: #46067a;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+#userAdmin a{
+  text-decoration: none;
+}
+
+/* login/signup */
+#loginsignin{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  border: 2px solid red;
+  width: 90%;
+  padding: 20px 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin: auto;
+  background-color: #82758a;
+}
+#loginsignin h2{
+  font-size: 35px;
+  color: #063970;
+}
+#loginsignin p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#loginsignin a{
+  text-decoration: none;
+  color:rgb(25, 25, 221);
+  font-size: 20px;
+}
+#loginsignin a:hover{
+  color: aqua;
+  font-size: 25px;
+}
+form input{
+         border-radius: 7px;
+         padding: 5px 10px;
+         border: none;
+         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#sub{
+  background-color: #601b99;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sub:hover{
+  background-color: white;
+  color: #601b99;
+  font-weight: bold;
+  font-size: 17px;
+}
+  /* footer part  */
+   /* footer part start here  */
+   #footer-1{
+    text-align: center;
+  }
+  #footer-1 a{
+  text-decoration: none;
+  margin-left: 0px;
+  color:#82758a
+  /* margin-bottom: 140px; */
+  }
+  #footer-1 img{
+    height:23px;
+    /* margin-bottom: 20px; */
+  }
+
+  #footer-2 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-3 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-4 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-5 img{
+    height:25px;
+    margin-left: 10px;
+  }
+  #footer-5 input{
+    width:220px;
+    height:40px;
+    border-radius: 20px;
+  }
+  #footer-5 button{
+    width:100px;
+    height:30px;
+    border-radius: 20px;
+    background-color: #fac2e5;
+    
+  
+  }
+  #footer-5 button:hover{
+    background-color: #b8c8ff;
+  }
+  footer{
+    display: flex;
+     justify-content: space-evenly;
+    background-color:#f2e4ff;color:#413c45;
+  }
+
+
+  /* slider three part here  */
+  #slider h3{
+    display: block;
+      text-align: center;
+  }
+  #slider-3{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    height:50px;
+    background-color:#063970;
+    color: rgb(255, 255, 255); font-family: "Visuelt Pro"; font-weight: 100; 
+  }
+  #slider-3 a{
+   
+    color:rgb(248, 5, 5);
+  }

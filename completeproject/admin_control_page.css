@@ -1,0 +1,212 @@
+body{
+   
+}
+
+#slider h3{
+    display: block;
+      text-align: center;
+  }
+  #slider{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    height:50px;
+    background-color:#063970;
+    color: rgb(255, 255, 255); font-family: "Visuelt Pro"; font-weight: 100; 
+  }
+  #slider a{
+   
+    color:rgb(248, 5, 5);
+  }
+
+  /* nav part start here  */
+
+  nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+  }
+  #nav-1{
+    /* border:2px solid red; */
+    width:400px;
+    margin-left: -40px;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  nav img{
+    height:30px;
+  }
+  nav h1{
+    font-size: 30px;
+  }
+  #nav-2{
+    /* border:2px  solid red; */
+    width:400px;
+ 
+   /* display: flex; */
+   /* justify-content: space-around; */
+  }
+  #nav-2 img{
+  margin-right: 18px;
+  }
+  #nav-2 input{
+    margin-bottom: 20px;
+    margin-right: 10px;
+  height:30px;
+  width:200px;
+  border-radius: 50px;
+  }
+
+/* middle section  */
+#userAdmin{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  color: #46067a;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  margin-top: 30px;
+}
+#userAdmin a{
+  text-decoration: none;
+}
+#userAdmin:hover{
+  color: red
+}
+#admin_name{
+  color: #063970;
+}
+#admin_name span{
+  color: aqua;
+}
+#container_box{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* border: 2px solid red; */
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+}
+#container_box h2{
+  font-size: 25px;
+  color: #46067a;
+}
+#container_box>div>div{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px 20px;
+  margin-bottom: 20px;
+  /* text-align: center; */
+}
+#container_box p{
+  margin: 2px;
+  color: #413c45;
+  font-weight: bold;
+  font-size: 19px;
+}
+#container_box input{
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#sub{
+  margin-top: 10px;
+  background-color: #063970;
+  font-size: 20px;
+  color: white;
+}
+#sub:hover{
+  color: #063970;
+  background-color: white;
+  font-weight: bold;
+}
+
+#append_item h1{
+           color: #524f11;
+}
+#append_item img{
+  width: 100%;
+}
+
+
+  /* footer part  */
+   /* footer part start here  */
+   #footer-1{
+    text-align: center;
+  }
+  #footer-1 a{
+  text-decoration: none;
+  margin-left: 0px;
+  color:#82758a
+  /* margin-bottom: 140px; */
+  }
+  #footer-1 img{
+    height:23px;
+    /* margin-bottom: 20px; */
+  }
+
+  #footer-2 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-3 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-4 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-5 img{
+    height:25px;
+    margin-left: 10px;
+  }
+  #footer-5 input{
+    width:220px;
+    height:40px;
+    border-radius: 20px;
+  }
+  #footer-5 button{
+    width:100px;
+    height:30px;
+    border-radius: 20px;
+    background-color: #fac2e5;
+    
+  
+  }
+  #footer-5 button:hover{
+    background-color: #b8c8ff;
+  }
+  footer{
+    display: flex;
+     justify-content: space-evenly;
+    background-color:#f2e4ff;color:#413c45;
+  }
+
+
+  /* slider three part here  */
+  #slider h3{
+    display: block;
+      text-align: center;
+  }
+  #slider-3{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    height:50px;
+    background-color:#063970;
+    color: rgb(255, 255, 255); font-family: "Visuelt Pro"; font-weight: 100; 
+  }
+  #slider-3 a{
+   
+    color:rgb(248, 5, 5);
+  }
+
+
+
