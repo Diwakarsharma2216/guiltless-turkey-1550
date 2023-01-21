@@ -92,7 +92,7 @@ fetch(productUrl)
       .then(similarProducts => {
         // Filter out the current product and also shhow nly the type sample
         
-        const filteredSimilarProducts = similarProducts.filter(p => p.id !== product.id && p.type==product.type);
+        const filteredSimilarProducts = similarProducts.filter(p => p.id !== product.id && p.type==product.type );
         console.log(filteredSimilarProducts)
         const limitedSimilarProducts = filteredSimilarProducts.slice(0, 4);
 
