@@ -315,3 +315,27 @@ function createfilter(){
 
 //   return sortDiv
 // }
+
+function rendercard(needyData) {
+  let output = '';
+  needyData.forEach(product => {
+      output += `
+      <div class="card" data-product-id="${product.id}"> 
+        <img src="${product.img}" alt="${product.name}">
+        <h2>${product.name}</h2>
+        <p>Price: $${product.price}</p>
+      </div>
+      `;
+  });
+  container.innerHTML = output;
+
+  // Add click event listener to each card
+  const cardElements = document.getElementsByClassName('card');
+  for (let i = 0; i < cardElements.length; i++) {
+      cardElements[i].addEventListener('click', (event) => {
+        const productId = event.currentTarget.getAttribute('data-product-id');
+        // Redirect to the product page
+        window.location.href = `../description/description.html?productId=${productId}`;
+      });
+  }
+}

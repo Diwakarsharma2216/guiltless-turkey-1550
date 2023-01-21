@@ -1,0 +1,812 @@
+
+#cart-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-item img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.remove-from-cart {
+    background-color:white;
+    color:#1e3371;
+    text-decoration: underline;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.remove-from-cart:hover {
+    text-decoration: none;
+}
+
+#size-select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#size-select:focus {
+    border: 2px solid #555;
+}
+
+label[for="size-select"] {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*resvonsive for website */
+@media (max-width: 768px) {
+    /* styles for tablet and mobile devices */
+    #product-image-container {
+      width: 100%;
+      text-align: center;
+    }
+  
+    #product-details-container {
+      width: 100%;
+    }
+  
+    .cart-item {
+      flex-wrap: wrap;
+    }
+  
+    .cart-item img {
+      width: 50%;
+      margin-right: 20px;
+    }
+  }
+  
+
+
+
+  #cart-page {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+#heading-cart{
+  
+  width: 80%;
+  display: flex;
+  padding-left: 6%;
+
+}
+#heading-cart span{
+  font-family: "Visuelt Pro", sans-serif;
+  font-weight: 700;
+  color: grey;
+  padding-right:100px ;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/*order summery*/
+
+#order-summary{
+  background-color: #f7f7f7;
+  padding: 40px;
+  font-family: "Visuelt Pro", sans-serif;
+  
+ 
+
+}
+#order-summary h2{
+  font-family: "Visuelt Pro", sans-serif;
+  font-weight: 700;
+  color: #1e3371;
+  padding-right:100px ;
+
+}
+#summary-items #total-price{
+  font-size: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #94abc1;
+}
+#checkout-button{
+  width: 100%;
+  height: 50px;
+  background-color: #1e3371;
+  color: white;
+  border: none;
+}
+#checkout-button:hover{
+  background-color: black;
+  font-family: "Visuelt Pro", sans-serif;
+  font-size: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+#paypal{
+  border: none;
+  border-radius: 50px;
+  background-color: #ffc439;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+}
+#paypal:hover{
+  background-color: #eeac0f88;
+
+}
+#paypal img{
+  height: 20px;
+  padding-right: 10px;
+}
+#p{
+  text-align: center;
+  font-weight: 200;
+  font-size: 10px;
+}
+
+/* cart item */
+.cart-item{
+  padding: 50px;
+}
+
+.decrease-quantity {
+  font-size: 20px;
+  font-weight: 900;
+  border: none;
+  color: #1e3371;
+  background-color: white;
+}
+.increase-quantity{
+  font-size: 20px;
+  border: none;
+  color: #1e3371;
+  background-color: white;
+  font-weight: 900;
+
+}
+#name-div{
+  width: 50%;
+}
+#heading-cart h1{
+  font-family: "Visuelt Pro", sans-serif;
+  font-weight: 700;
+  color: #1e3371;
+  padding-right:100px ;
+
+
+}
+.container{
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 200;
+}
+
+
+@media (max-width: 768px) {
+  /* styles for tablet and mobile devices */
+  #cart-container {
+      flex-wrap: wrap;
+  }
+
+  #cart-items {
+      width: 100%;
+      order: 1;
+  }
+
+  #order-summary {
+      width: 100%;
+      order: 2;
+  }
+}
+
+
+
+
+  /*navbar for the website*/
+  #slider h3{
+    display: block;
+      text-align: center;
+  }
+  #slider{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    height:50px;
+    background-color:#063970;
+    color: rgb(255, 255, 255); font-family: "Visuelt Pro"; font-weight: 100; 
+  }
+  #slider a{
+   
+    color:rgb(248, 5, 5);
+  }
+
+  /* nav part start here  */
+
+  nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+  }
+  #nav-1{
+    /* border:2px solid red; */
+    width:400px;
+    margin-left: -40px;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  nav img{
+    height:30px;
+  }
+  nav h1{
+    font-size: 30px;
+  }
+  #nav-2{
+    /* border:2px  solid red; */
+    width:400px;
+ 
+   /* display: flex; */
+   /* justify-content: space-around; */
+  }
+  #nav-2 img{
+  margin-right: 18px;
+  }
+  #nav-2 input{
+    margin-bottom: 20px;
+    margin-right: 10px;
+  height:30px;
+  width:200px;
+  border-radius:50px;
+}
+
+
+#slider h3{
+    display: block;
+      text-align: center;
+  }
+  #slider{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    height:50px;
+    background-color:#063970;
+    color: rgb(255, 255, 255); font-family: "Visuelt Pro"; font-weight: 100; 
+  }
+  #slider a{
+   
+    color:rgb(248, 5, 5);
+  }
+
+  /* nav part start here  */
+
+  nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aliceblue;
+  }
+  #nav-1{
+    /* border:2px solid red; */
+    width:400px;
+    margin-left: -40px;
+    display:flex;
+    justify-content:space-evenly;
+  }
+  nav img{
+    height:30px;
+  }
+  nav h1{
+    font-size: 30px;
+  }
+  #nav-2{
+    /* border:2px  solid red; */
+    width:400px;
+ 
+   /* display: flex; */
+   /* justify-content: space-around; */
+  }
+  #nav-2 img{
+  margin-right: 18px;
+  }
+  #nav-2 input{
+    margin-bottom: 20px;
+    margin-right: 10px;
+  height:30px;
+  width:200px;
+  border-radius: 50px;
+  }
+
+
+  /* adv-2 start here  */
+  #adv-2{
+    background-color: #063970;
+    height:50px;
+    text-align: center;
+    color: #9cb6d1;
+  }
+
+
+  /* animation part start here  */
+  #animation-1{
+    /* border:2px solid red; */
+    color:skyblue ;
+    width:40%;
+ 
+  }
+
+  #animation-2{
+    /* border:2px solid red; */
+    color:rgb(228, 174, 46) ;
+    width:60%;
+    color:#3e3939;
+    font-size: 20px;
+ 
+  }
+
+  #animation{
+    display: flex;
+    text-align: center;
+  background-image:url("https://media.istockphoto.com/id/1215246603/vector/smooth-mesh-blurred-background-multi-color-gradient-pattern-smooth-modern-watercolor-style.jpg?s=612x612&w=0&k=20&c=yMlfIQi-e-m5QGPMx2J1bhrW3qSgFAb6SFfF5hChM9o=");
+  background-size: cover;
+ background-repeat: no-repeat;
+    /* background-color: #7e85ff; */
+    width:100%;
+    margin:auto;
+    border-radius: 20px;
+    margin-top: 10px;
+
+  }
+   #slider-1 h3{
+    font-size: 30px;
+   }
+  /* adv-3 start here  */
+  #adv-3{
+    display: flex;
+   background-color:#f0dcf3;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  #adv-3-btn{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* border:2px solid red; */
+    width:600px;
+
+  }
+
+  #adv-3 button{
+    margin: 10px 10px;
+  }
+  #adv-3 button:hover{
+    background-color: #063970;
+  }
+  #adv-3 h1{
+    color:#828282;
+  }
+
+  /* container-1 start here  */
+  #container-1 img{
+    height:430px;
+  }
+  #container-1{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  #container-2{
+    display: flex;
+    /* border:2px solid red; */
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #ff6d56;
+    width:98%;
+    margin:auto;
+    border-radius: 20px;
+    color:white;
+  }
+  #container-2 button{
+    width:300px;
+    height:40px;
+    border:3px solid white;
+    background-color: #ff6d56;
+  }
+  #container-2 button:hover{
+    background-color: #063970;
+  }
+  /* container 3 start here  */
+  #container-3{
+    display: flex;
+   /* border:2px solid red; */
+   justify-content: space-around;
+   width:98%;
+   margin:auto;
+   margin-top:5px;
+  }
+  #container-3 img{
+    height:500px;
+    width:350px;
+   
+  }
+  #container-b{
+    background-image:url("https://media.istockphoto.com/id/1215246603/vector/smooth-mesh-blurred-background-multi-color-gradient-pattern-smooth-modern-watercolor-style.jpg?s=612x612&w=0&k=20&c=yMlfIQi-e-m5QGPMx2J1bhrW3qSgFAb6SFfF5hChM9o=");
+  background-size: cover;
+ background-repeat: no-repeat;
+ height:500px;
+ width:350px;
+ text-align: center;
+ color: white;
+ font-size: 20px;
+ margin-top: 5px;
+  }
+  #container-b button{
+    width:190px;
+    height: 50px;
+  }
+  #container-b button:hover{
+    background-color: #063970;
+  }
+  #container-c{
+   display:flex;
+   /* border:2px solid red; */
+   text-align: center;
+   height:500px;
+   
+  }
+  #container-c img{
+    width:250px;
+    height:430px
+   
+  }
+
+  #bnner{
+    background-image:url("https://media.istockphoto.com/id/1215246603/vector/smooth-mesh-blurred-background-multi-color-gradient-pattern-smooth-modern-watercolor-style.jpg?s=612x612&w=0&k=20&c=yMlfIQi-e-m5QGPMx2J1bhrW3qSgFAb6SFfF5hChM9o=");
+    background-size: cover;
+   background-repeat: no-repeat;
+   height:350px;
+   width:98%;
+   margin:auto;
+   margin-top: 10px;
+   text-align: center;
+   color:rgb(105, 95, 95);
+   margin-top: 10px;
+  }
+  #bnner button{
+    width:300px;height:40px;
+    margin-left: 10px;
+  }
+  #bnner button:hover{
+    background-color: #063970;
+  }
+  #banner-2{
+   
+   display: flex;
+   justify-content: space-between;
+   width:98%;
+   margin:auto;
+   margin-top: 10px;
+  }
+
+  /* banner 2 start here  */
+  #banner-2-a{
+    /* border:2px solid red; */
+  }
+  #banner-2-b{
+    border:2px solid rgb(51, 0, 255);
+    width:1100px;
+    text-align: center;
+      background-image:url("https://media.istockphoto.com/id/1215246603/vector/smooth-mesh-blurred-background-multi-color-gradient-pattern-smooth-modern-watercolor-style.jpg?s=612x612&w=0&k=20&c=yMlfIQi-e-m5QGPMx2J1bhrW3qSgFAb6SFfF5hChM9o=");
+    background-size: cover;
+   background-repeat: no-repeat;
+   width:98%; 
+   align-items: center;
+   font-size: 30px;
+   color: white;
+   margin-left:10px;
+  }
+  #banner-2-b button{
+     width:200px;
+     height:40px;
+    margin-top: 10px;
+  }
+  #banner-2-b button:hover{
+    background-color: #063970;
+  }
+  #banner-2-a img{
+  height:500px;
+  
+  }
+
+  #banner-2-b img{
+     height:400px;
+     width:700px;
+  }
+  #banner-2-b{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* banner-3 start here  */
+ 
+  #banner-3{
+    background-image:url("https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw50dec257/images/homepage/2020/051320/ECO_DESKTOP@2x-min.jpg");
+    height:600px;
+    width:98%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    
+  }
+  #banner-3>div>img{
+    height:125px;
+    margin-top: 150px;
+  }
+  #banner-3 button{
+    height:60px;
+    width:300px;
+    border:5px solid rgb(29, 24, 24);
+  }
+  #banner-3 button:hover{
+    background-color:#82758a ;
+  }
+
+  /* footer part start here  */
+  #footer-1{
+    text-align: center;
+  }
+  #footer-1 a{
+  text-decoration: none;
+  margin-left: 0px;
+  color:#82758a
+  /* margin-bottom: 140px; */
+  }
+  #footer-1 img{
+    height:23px;
+    /* margin-bottom: 20px; */
+  }
+
+  #footer-2 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-3 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-4 a{
+    text-decoration: none;
+    color:#82758a
+  }
+  #footer-5 img{
+    height:25px;
+    margin-left: 10px;
+  }
+  #footer-5 input{
+    width:220px;
+    height:40px;
+    border-radius: 20px;
+  }
+  #footer-5 button{
+    width:100px;
+    height:30px;
+    border-radius: 20px;
+    background-color: #fac2e5;
+    
+  
+  }
+  #footer-5 button:hover{
+    background-color: #b8c8ff;
+  }
+  footer{
+    display: flex;
+     justify-content: space-evenly;
+    background-color:#f2e4ff;color:#413c45;
+  }
+
+
+  /* slider three part here  */
+  #slider h3{
+    display: block;
+      text-align: center;
+  }
+  #slider-3{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    height:50px;
+    background-color:#063970;
+    color: rgb(255, 255, 255); font-family: "Visuelt Pro"; font-weight: 100; 
+  }
+  #slider-3 a{
+   
+    color:rgb(248, 5, 5);
+  }
+
+  
+
+  /* media quries start here  */
+
+
+  
+  @media (min-width: 300px) and (max-width: 700px) {
+    nav{
+      display:flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: aliceblue;
+    }
+    /* #nav-1{
+      /* border:2px solid red; */
+      /* width:400px;
+      margin-left: 140px;
+      display:flex;
+     flex-direction: column;
+      justify-content:space-evenly;
+    } */ */
+    nav img{
+      height:30px;
+    }
+    nav h1{
+      font-size: 30px;
+    }
+    #nav-2{
+      /* border:2px  solid red; */
+      width:300px;
+   
+     display: flex;
+     /* flex-direction: column; */
+     /* justify-content: space-around; */
+    }
+    #nav-2 img{
+    margin-right: 18px;
+    }
+    #nav-2 input{
+      margin-bottom: 20px;
+      margin-right: 10px;
+    height:30px;
+    width:200px;
+    border-radius: 50px;
+    }
+  
+    #animation{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    background-image:url("https://media.istockphoto.com/id/1215246603/vector/smooth-mesh-blurred-background-multi-color-gradient-pattern-smooth-modern-watercolor-style.jpg?s=612x612&w=0&k=20&c=yMlfIQi-e-m5QGPMx2J1bhrW3qSgFAb6SFfF5hChM9o=");
+    background-size: cover;
+   background-repeat: no-repeat;
+      /* background-color: #7e85ff; */
+      width:100%;
+      margin:auto;
+      border-radius: 20px;
+      margin-top: 10px;
+  
+    }
+    #adv-3-btn{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      /* border:2px solid red; */
+      width:600px;
+  
+    }
+    #container-1 img{
+      height:130px;
+    }
+    #container-2{
+      display: flex;
+      flex-direction: column;
+      /* border:2px solid red; */
+      align-items: center;
+      justify-content: space-around;
+      font-size: 20px;
+      background-color: #ff6d56;
+      width:98%;
+      margin:auto;
+      border-radius: 20px;
+      color:white;
+    }
+    #container-3{
+      display: flex;
+      flex-direction: column;
+     /* border:2px solid red; */
+     justify-content: space-around;
+     width:98%;
+     margin:auto;
+     margin-top:5px;
+    }
+    #container-c{
+      display:flex;
+      flex-direction: column;
+      /* border:2px solid red; */
+      text-align: center;
+      height:500px;
+      
+     }
+     #bnner{
+      background-image:url("https://media.istockphoto.com/id/1215246603/vector/smooth-mesh-blurred-background-multi-color-gradient-pattern-smooth-modern-watercolor-style.jpg?s=612x612&w=0&k=20&c=yMlfIQi-e-m5QGPMx2J1bhrW3qSgFAb6SFfF5hChM9o=");
+      background-size: cover;
+     background-repeat: no-repeat;
+     height:350px;
+     width:98%;
+     margin:auto;
+     margin-top: 10px;
+     text-align: center;
+     color:rgb(105, 95, 95);
+     margin-top: 10px;
+    }
+    footer{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+      flex-direction: column;
+      background-color:#f2e4ff;color:#413c45;
+      text-align: center;
+    }
+    #container-3{
+      display: flex;
+      flex-direction: column;
+     /* border:2px solid red; */
+     justify-content: space-around;
+     width:98%;
+     margin:auto;
+     margin-top:5px;
+    }
+    #banner-2-b{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+    }
+    #banner-2-b img{
+      height:00px;
+      width:00px;
+   }
+   #banner-3{
+    background-image:url("https://www.aeropostale.com/on/demandware.static/-/Sites-aeropostale-Library/default/dw50dec257/images/homepage/2020/051320/ECO_DESKTOP@2x-min.jpg");
+    height:600px;
+    width:98%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:auto;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    
+  }
+  #banner-3>div>img{
+    height:25px;
+    margin-top: 50px;
+  }
+  #banner-3 button{
+    height:40px;
+    width:200px;
+    border:5px solid rgb(29, 24, 24);
+  }
+  #banner-3 button:hover{
+    background-color:#82758a ;
+  }
+  }
