@@ -37,7 +37,7 @@ form.addEventListener('submit',(e)=>{
     }
     if(flag){
        alert('Login Successfully');
-        window.location.href='index.html';
+        window.location.href="http://127.0.0.1:5500/index/index.html";
     }
     else{
       loginstatus.innerText='Wrong Detail';

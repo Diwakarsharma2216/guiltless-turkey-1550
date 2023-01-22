@@ -376,7 +376,7 @@
 
 
   
-  @media (min-width: 300px) and (max-width: 700px) {
+  @media (min-width: 100px) and (max-width: 700px) {
     nav{
       display:flex;
       flex-direction: column;

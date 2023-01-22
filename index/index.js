@@ -96,3 +96,9 @@ fetch("https://63c4d1cdf80fabd877db7506.mockapi.io/newproduct")
   clearTimeout(timer)
   timer=setTimeout(checkout,1000)
  })
+
+
+ let user=document.getElementById("loginAcc")
+ user.addEventListener("click",()=>{
+  window.location.href="index.html"
+ })
