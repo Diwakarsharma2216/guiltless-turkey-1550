@@ -352,7 +352,7 @@ function rendercard(needyData) {
       cardElements[i].addEventListener('click', (event) => {
         const productId = event.currentTarget.getAttribute('data-product-id');
         // Redirect to the product page
-        window.location.href = `../description/description.html?productId=${productId}`;
+        window.location.href = `description.html?productId=${productId}`;
       });
   }
 }
