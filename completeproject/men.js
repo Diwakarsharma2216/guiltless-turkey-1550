@@ -64,7 +64,7 @@ fetch(url)
     console.log(data)
     let needyData = data.filter((el)=>{
         // console.log(+el.id>=61)
-        if(+el.id>=123 && +el.id!=92){
+        if(el.category == "Men" && +el.id!=92){
             return el
         }
     })
